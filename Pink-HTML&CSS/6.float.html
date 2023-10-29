@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            float:left;
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+        }
+        .two{
+            /* float:left; */
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+        .three{
+            float:left;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        /* 2.父盒子overflow */
+        .four{
+            width: 500px;
+            background-color: aqua;
+            overflow:hidden; 
+        }
+        .a{
+            float:left;
+            width:100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+        .b{
+            float:left;
+            width:100px;
+            height: 200px;
+            background-color: bisque;
+        }
+        
+        /* 1.clear */
+        .c{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="c"></div>
+
+    <!-- 用父盒子撑开子盒子 -->
+    <div class="four">
+        <div class="a"></div>
+        <div class="b"></div>
+        <!-- <div class="c"></div> -->
+    </div>
+</body>
+</html>

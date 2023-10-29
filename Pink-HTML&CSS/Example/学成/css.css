@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei";
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 居中 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 70px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    padding: 0 15px;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.header {
+    height: 40px;
+    margin: 30px auto;
+}
+
+.search {
+    float: left;
+    margin-left: 80px;
+    height: 40px;
+    width: 410px;
+}
+
+.search input {
+    float: left;
+    padding-left: 15px;
+    height: 36px;
+    width: 341px;
+    border: 2px solid #00a4ff;
+    border-right: 0px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button {
+    float: left;
+    height: 40px;
+    width: 50px;
+    border-style: none;
+    background-color: #00a4ff;
+}
+
+.user_info {
+    float: left;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.user_info .avatar {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("images/logo_03.jpg");
+}
+
+.user_info .name {
+    float: left;
+    padding: 0 7px;
+    height: 40px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    line-height: 40px;
+    color: #7e7e7f;
+}

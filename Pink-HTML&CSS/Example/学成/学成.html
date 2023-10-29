@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学成</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .banner {
+            height: 420px;
+            background-color: #1c036c;
+        }
+
+        .banner .w {
+            height: 420px;
+            background-image: url("banner2.png");
+        }
+
+        .subnav{
+            float: left;
+        }
+
+        .subnav ul li a {
+            display: block;
+            padding: 0 15px;
+            height: 46.7px;
+            width: 190px;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 46.7px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .subnav ul li a:hover {
+            background: rgba(225, 225, 225, 0.2);
+        }
+
+        .subnav ul li span {
+            float: right;
+            color: #ffffff;
+            line-height: 46.7px;
+        }
+
+        .course{
+            float: right;
+            margin-top: 50px;
+            width: 230px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header w">
+        <div class="logo">
+            <img src="./images/logo_03.png" alt="" height="40px" width="200px">
+        </div>
+        <ul class="nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程</a></li>
+            <li><a href="#">职业规划</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" value="请输入关键词">
+            <button class="btn">
+                <i class="fas fa-search" style="color:white;"></i>
+            </button>
+        </div>
+        <div class="user_info">
+            <p class="avatar"></p>
+            <p class="name">qq-leishui</p>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="w">
+            <div class="subnav">
+                <ul>
+                    <li><a href="#">前端开发<span>&gt;</span></a></li>
+                    <li><a href="#">后端开发<span>&gt;</span></a></li>
+                    <li><a href="#">移动开发<span>&gt;</span></a></li>
+                    <li><a href="#">人工智能<span>&gt;</span></a></li>
+                    <li><a href="#">商业预测<span>&gt;</span></a></li>
+                    <li><a href="#">云计算&大数据<span>&gt;</span></a></li>
+                    <li><a href="#">运维&测试<span>&gt;</span></a></li>
+                    <li><a href="#">UI设计<span>&gt;</span></a></li>
+                    <li><a href="#">产品<span>&gt;</span></a></li>
+                </ul>
+            </div>
+            <div class="course">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

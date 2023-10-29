@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Table</h1>
+    <div>
+        <table border="2" align="center" cellpadding="10" cellspacing="0" width="30%">
+            <tr>
+                <th>name</th>
+                <th>gender</th>
+                <th colspan="2">old</th>
+            </tr>
+            <tr>
+                <td>Jgon</td>
+                <td>male</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Anna</td>
+                <td>female</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>female</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </div>
+
+    <h1>无序标签</h1>
+    <ul>
+        <li>兔子</li>
+        <li>老虎</li>
+        <li>鸭子</li>
+    </ul>
+    <ul list-style="none">
+        <li>兔子</li>
+        <li>老虎</li>
+        <li>鸭子</li>
+
+    <h1>有序标签</h1>
+    <ol>
+        <li>兔子</li>
+        <li>老虎</li>
+        <li>鸭子</li>
+    </ol>
+
+    <h1>自定义列表</h1>
+    <!-- dl只能嵌套dd.dt -->
+    <dl>
+        <dt>关注我们</dt>
+        <dd>新浪微博</dd>
+        <dd>官方微信</dd>
+        <dd>联系我们</dd>
+    </dl>
+
+    <h1>表单</h1>
+    <!-- action:url 接收表单的地址
+    method：post/get -->
+    <form action="#" method="post" name="Name">
+        用户名：<input type="text" name="username" value="请输入用户名" maxlength="6"><br/>
+        密码：<input type="password" name="password" ><br/>
+        性别：<input type="radio" name="sex" value="男" id="sex"><label for="sex">男</label> <input type="radio" name="sex" value="女"> 女 <br>
+        爱好：<input type="checkbox" value="吃饭">吃饭 <input type="checkbox" value="睡觉">睡觉 <input type="checkbox" value="学习">学习 <br/>
+        <input type="submit" value="免费注册"> <br>
+        <input type="reset" value="清空"><br/>
+        <input type="button" value="获取短信"><br/>
+        上传头像：<input type="file">
+    </form>
+
+    <h1>下拉</h1>
+    籍贯
+    <select>
+        <option>山东</option>
+        <option>河北</option>
+        <option selected="selected">台州</option>
+        <option>浙江</option>
+    </select>
+
+    <h1>文本域</h1>
+    <textarea rows="3" cols="10">
+
+    </textarea>
+</body>
+</html>
